@@ -57,6 +57,11 @@ Install auto suggestions plugin:
 Install syntax highlighting:
 `$ brew install zsh-syntax-highlighting`
 
+Copy in the `.zshrc` file. Note this will source your existing `~/.bash_profile` - you may need to modify this based on OS.
+
+`$ cp -f .zshrc ~./.zshrc`
+
+The `.zshrc` is optimized for OSX and has *opinions* review it's contents and tweak as you see fit (specifically plugins).
 ## Cool Tricks
 * option + -> will skip forward a word
 * option + <- will skip back a word

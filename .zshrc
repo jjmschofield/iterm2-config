@@ -1,5 +1,5 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Existing bash profile
+source ~/.bash_profile
 
 # Path to your oh-my-zsh installation.
 export ZSH="~/.oh-my-zsh"
@@ -40,7 +40,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ####
 # Quirks
 ####
-export GPG_TTY=$(tty)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
