@@ -62,6 +62,20 @@ Copy in the `.zshrc` file. Note this will source your existing `~/.bash_profile`
 `$ cp -f .zshrc ~./.zshrc`
 
 The `.zshrc` is optimized for OSX and has *opinions* review it's contents and tweak as you see fit (specifically plugins).
+
+## Bonus
+### Syntax highlighting in nano
+Install:
+
+`$ brew install nano`
+
+Restart your terminal session (otherwise you will be pointing to the mac installed version of nano).
+
+```
+$ touch ~/.nanorc
+$ find /usr/local/Cellar/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
+```
+
 ## Cool Tricks
 * option + -> will skip forward a word
 * option + <- will skip back a word
