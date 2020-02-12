@@ -1,36 +1,42 @@
 # iterm2-config
-A perfect setup for iTerm2
+A perfect setup for iTerm2!
 
 ## Features
 Clear prompt style , execution context, VCS status:
 
-![prompt style](prompt-style.png)
+![prompt style](docs/img/prompt-style.png)
 
 Syntax highlighting:
 
-![syntax highlighting](syntax-highlighting.png)
+![syntax highlighting](docs/img/syntax-highlighting.png)
 
-![syntax highlighting b](syntax-highlighting-b.png)
+![syntax highlighting b](docs/img/syntax-highlighting-b.png)
 
 Auto suggestions based on bash history:
 
-![auto suggest](auto-suggest.png)
+![auto suggest](docs/img/auto-suggest.png)
 
 Visible exit codes:
 
-![exit codes](exit-codes.png)
+![exit codes](docs/img/exit-codes.png)
 
 ## Guide
+Grab the config files from this repo:
+
+`git clone https://github.com/jjmschofield/iterm2-config`
+
+
 Install iTerm:
 
 `$ brew cask install iterm2`
 
-Install font:
+**Install font:
+
 https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 
-Import `iterm2-config.js` as your iterm proflie.
+Import `iterm2-config.js` as your iTerm profile.
 
-Import and set colour scheme to `MaterialOcean.itermcolors`.
+Import and set color scheme to `MaterialOcean.itermcolors`.
 
 Install zsh:
 
