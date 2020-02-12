@@ -29,7 +29,7 @@ fi
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
 
 # VCS
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=’red’
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="red"
 
 #### 
 # Plugins
