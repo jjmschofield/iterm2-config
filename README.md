@@ -1,5 +1,5 @@
 # iterm2-config
-A perfect setup for iTerm2 using `zsh` with a Material Ocean color scheme.
+A perfect setup for iTerm2 using `zsh` with a [powerlevel9k](https://github.com/bhilburn/powerlevel9k.git) and a Material Ocean color scheme.
 
 ## Features
 Clear prompt style , execution context, VCS status:
@@ -76,6 +76,21 @@ $ touch ~/.nanorc
 $ find /usr/local/Cellar/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 ```
 
+### Visual Studio Code
+You might get:
+
+```
+$ vsc
+zsh: command not found: code
+```
+
+You will need to install the `code` command in your path - [see how.](https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac)
+
+### Webstorm
+Switch over to using `zsh` in Webstorm [following this reference](https://www.jetbrains.com/help/webstorm/settings-tools-terminal.html).
+
+Find the console font setting and set it to `Meslo LG M for Powerline`
+
 ## Cool Tricks
 * option + -> will skip forward a word
 * option + <- will skip back a word
@@ -83,4 +98,4 @@ $ find /usr/local/Cellar/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.
 * auto suggestions - press -> to complete
 
 ## References
-See: https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
+This is heavily based on [this great article](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961).
