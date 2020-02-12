@@ -1,5 +1,5 @@
 # iterm2-config
-A perfect setup for iTerm2 using `zsh` with a Material Ocean colour scheme.
+A perfect setup for iTerm2 using `zsh` with a Material Ocean color scheme.
 
 ## Features
 Clear prompt style , execution context, VCS status:
@@ -25,12 +25,11 @@ Grab the config files from this repo:
 
 `git clone https://github.com/jjmschofield/iterm2-config`
 
-
 Install iTerm:
 
 `$ brew cask install iterm2`
 
-**Install font:
+Install font:
 
 https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 
@@ -55,6 +54,7 @@ Install auto suggestions plugin:
 `$ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 
 Install syntax highlighting:
+
 `$ brew install zsh-syntax-highlighting`
 
 Copy in the `.zshrc` file. Note this will source your existing `~/.bash_profile` - you may need to modify this based on OS.
