@@ -100,6 +100,7 @@ plugins=(git brew aws npm osx vscode yarn)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+COMPLETION_WAITING_DOTS="false" # known issue with zsh-autosuggestions, breaks tab complete when true
 
 source $ZSH/oh-my-zsh.sh
 
