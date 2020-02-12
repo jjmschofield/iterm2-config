@@ -2,14 +2,25 @@
 A perfect setup for iTerm2
 
 ## Features
-* Clear prompt style, location and execution context
-* Space around commands
-* Syntax highlighting
-* Auto suggestions based on bash history
-* Natural text navigation
-* Looks good!
+Clear prompt style , execution context, VCS status:
 
-## Process
+![prompt style](prompt-style.png)
+
+Syntax highlighting:
+
+![syntax highlighting](syntax-highlighting.png)
+
+![syntax highlighting b](syntax-highlighting-b.png)
+
+Auto suggestions based on bash history:
+
+![auto suggest](auto-suggest.png)
+
+Visible exit codes:
+
+![exit codes](exit-codes.png)
+
+## Guide
 Install iTerm:
 
 `$ brew cask install iterm2`
