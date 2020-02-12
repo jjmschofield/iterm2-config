@@ -1,6 +1,8 @@
 # iterm2-config
 A perfect setup for iTerm2 using `zsh` with a [powerlevel9k](https://github.com/bhilburn/powerlevel9k.git) and a Material Ocean color scheme.
 
+![tldr](docs/img/tldr.png)
+
 ## Features
 Clear prompt style , execution context, VCS status:
 
