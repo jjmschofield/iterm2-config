@@ -1,5 +1,5 @@
 # iterm2-config
-A perfect setup for iTerm2
+A perfect setup for iTerm2 using `zsh` with a Material Ocean colour scheme.
 
 ## Features
 Clear prompt style , execution context, VCS status:
