@@ -4,7 +4,7 @@ A perfect setup for iTerm2 using `zsh` with a [powerlevel9k](https://github.com/
 ![tldr](docs/img/tldr.png)
 
 ## Features
-Clear prompt style , execution context, VCS status:
+Clear prompt style, execution context, VCS status:
 
 ![prompt style](docs/img/prompt-style.png)
 
